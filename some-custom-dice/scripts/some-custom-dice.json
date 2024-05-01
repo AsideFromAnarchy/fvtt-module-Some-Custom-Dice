@@ -1,0 +1,88 @@
+Hooks.once("init", () => {
+    
+  CONFIG.fontDefinitions["Leafy Glade"] = {
+  editor: true,
+  fonts: [
+  {urls: ["modules/some-custom-dice/fonts/LeafyGlade.ttf"]}
+      ]
+  };
+
+  CONFIG.fontDefinitions["Leafy Shade"] = {
+    editor: true,
+    fonts: [
+    {urls: ["modules/some-custom-dice/fonts/LeafyShade.ttf"]}
+        ]
+    };
+  
+  CONFIG.fontDefinitions["LS Leaves"] = {
+    editor: true,
+    fonts: [
+    {urls: ["modules/some-custom-dice/fonts/LSLeaves.ttf"]}
+        ]
+    };
+
+  CONFIG.fontDefinitions["VTKS Alcalina"] = {
+    editor: true,
+    fonts: [
+    {urls: ["modules/some-custom-dice/fonts/VTKSAlcalina.ttf"]}
+        ]
+    };
+
+});
+
+Hooks.on('diceSoNiceReady', (dice3d) => {
+
+  dice3d.addSystem({id:"Alice",name:"‽ Alice!"}, "default");
+
+  /*
+  dice3d.addTexture("Branches", {
+    name: "‽ Branches",
+    composite: "multiply",
+    source: "modules/some-custom-dice/textures/branches.webp"
+  });
+  */
+
+  dice3d.addColorset({
+      name: 'Anarchy Customs - Alice',
+      description: '‽ Alice Color',
+      category: 'Anarchy Customs',
+      foreground: '#7cd38e',
+      background: '#fbf1e5',
+      outline: '#000000',
+      edge: '#7cd38e',
+      texture: 'custom',
+      visibility: 'visible',
+      material: 'custom'
+  }, "default");
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      '1',
+      '2',
+      '3',
+      '4',
+      '5',
+      '6',
+      '7',
+      '8',
+      '9',
+      '10',
+      '11',
+      '12',
+      '13',
+      '14',
+      '15',
+      '16',
+      '17',
+      '18',
+      '19',
+      'modules/some-custom-dice/faces/alice/d20/d20-20.webp'
+    ],
+    //font: "Leafy Glade",
+    //fontScale: 1.25,
+    //colorset: "Anarchy Customs - Alice",
+    system:"Alice"
+  });
+  
+});

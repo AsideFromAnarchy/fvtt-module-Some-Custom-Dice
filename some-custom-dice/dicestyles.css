@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'Leafy Glade';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../some-custom-dice/fonts/LeafyGlade.ttf') format('truetype') 
+  }
+
+  @font-face {
+    font-family: 'Leafy Shade';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../some-custom-dice/fonts/LeafyShade.ttf') format('truetype') 
+  }
+
+  @font-face {
+    font-family: 'LS Leaves';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../some-custom-dice/fonts/LSLeaves.ttf') format('truetype') 
+  }
+
+  @font-face {
+    font-family: 'VTKS Alcalina';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../some-custom-dice/fonts/VTKSAlcalina.ttf') format('truetype') 
+  }

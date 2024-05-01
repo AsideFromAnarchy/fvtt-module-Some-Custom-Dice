@@ -1,0 +1,37 @@
+{
+  "name": "some-custom-dice",
+  "id": "some-custom-dice",
+  "title": "Some Custom Dice",
+  "description": "Adds some customizations to your dice such as faces and fonts.",
+  "version": "1.2.0",
+  "readme": "https://github.com/AsideFromAnarchy/fvtt-module-some-custom-dice/blob/main/README.md",
+  "changelog": "",
+  "author": "AsideFromAnarchy",
+  "authors": [
+    {
+      "name": "LyncsCwtsh"
+    },
+    {
+      "name": "AsideFromAnarchy"
+    },
+    {
+      "name": "kristianbinau"
+    },
+    {
+      "name": "LorduFreeman"
+    }
+  ],
+  "scripts": ["scripts/some-custom-dice.json"],
+  "styles": [
+    "dicestyles.css"
+  ],
+  "url": "https://github.com/AsideFromAnarchy/fvtt-module-Some-Custom-Dice",
+  "manifest": "https://raw.githubusercontent.com/AsideFromAnarchy/fvtt-module-some-custom-dice/main/some-custom-dice/module.json",
+  "download": "https://raw.githubusercontent.com/AsideFromAnarchy/fvtt-module-some-custom-dice/main/module.zip",
+  "minimumCoreVersion": "0.7.9",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": 11,
+    "maximum": 11
+  }
+}
