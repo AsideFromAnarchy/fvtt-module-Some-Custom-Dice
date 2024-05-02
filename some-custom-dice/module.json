@@ -25,7 +25,7 @@
   "styles": [
     "dicestyles.css"
   ],
-  "url": "https://github.com/AsideFromAnarchy/fvtt-module-Some-Custom-Dice",
+  "url": "https://github.com/AsideFromAnarchy/fvtt-module-some-custom-dice",
   "manifest": "https://raw.githubusercontent.com/AsideFromAnarchy/fvtt-module-some-custom-dice/main/some-custom-dice/module.json",
   "download": "https://raw.githubusercontent.com/AsideFromAnarchy/fvtt-module-some-custom-dice/main/module.zip",
   "minimumCoreVersion": "0.7.9",
